@@ -14,9 +14,13 @@ K – days in calendar. I decided to hard-code 365
 
 P – deposit contributed money value 
 
-finalDepositValue - the deposit value amount after storing. Calculation is based on simple percentage deposit formula 
+finalDepositValue - the deposit value amount after storing. 
 
-finalDepositValue - finalDepositValue substracted by initalDepositValue
-    finalDepositValue = p + ((p * i * t) / (k * 100))
+Calculation is based on simple percentage deposit formula 
+
+finalDepositValue = p + ((p * i * t) / (k * 100))
+
+income = finalDepositValue - P;
+
   
 ![Deposit-calculator](https://github.com/Reverlight/Deposit-calculator/blob/master/deposit-calculator-preview.png?raw=true)

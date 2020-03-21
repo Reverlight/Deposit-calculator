@@ -1,0 +1,205 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #40E0D0;
+    /* font-size: 1.2em; */
+    /* font-weight: bold; */
+}
+#currency-and-deposit {
+    /* margin-left: -50px; */
+    /* height:500px; */
+    padding-top:50px;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: space-around; */
+    width: 800px;
+    flex-wrap: wrap;
+}
+
+#currency-and-deposit div{
+    /* height:100px; */
+    /* border: 1px solid rgb(205, 215, 231); */
+}
+
+
+#deposit {
+    width: 500px;
+}
+
+
+#deposit-selection {
+    background-color: white;
+    border-radius: 1.5em;
+    border: 1px solid rgb(205, 215, 231);
+}
+
+#currency-selection {
+    border-radius: 1.5em;
+    /* height: 100%; */
+    border: 1px solid rgb(205, 215, 231);
+    
+}
+
+#deposit-value {
+    height: 30px;
+}
+
+#deposit-input {
+    /* width:100%; */
+    flex-basis: 70%;
+    /* flex: 1; */
+}
+
+select {
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+
+
+#wrapper {
+    margin-left: -100px;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+
+}
+
+#term-and-interest{
+    margin-top: 50px;
+    display: flex;
+}
+
+#term {
+    margin-right: 20px;
+}
+
+#interest-value {
+    width: 100%;
+}
+
+.title {
+    
+    /* text-align: center; */
+    font-size: 1.2em;
+    font-weight: 300;
+    color: whitesmoke;
+
+}
+
+#deposit-value{
+    font-size: 1.3em;
+}
+
+
+select {
+    text-align-last:center;
+    text-align: center;
+    border-radius: 1.5em;
+    font-weight: bold;
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;  
+    /* border-radius: 2em; */
+}
+
+button{
+    background-color: #008080;
+    font-weight: initial;
+
+    color: aliceblue;
+    font-size: 35px;
+    /* flex:1; */
+    min-width: 600px;
+    flex-basis: 50%;
+    /* margin-left: 100px; */
+    margin-bottom: 50px;
+}
+
+#term{
+    width: 75px;
+}
+
+#result {
+    display: none;
+}
+
+#result.active {
+    display: block;
+}
+
+#result {
+    padding: 25px;
+    /* color: #0FC0FC; */
+    color: #09A999;
+    /* padding-top: 100px; */
+    margin: 0 auto;
+    background-color: aliceblue;
+    max-width: 30%;
+    height: 200px;
+}
+
+#result h1 {
+    font-size: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 975px) {
+    #term{
+        width: 50%;
+    }
+    #deposit-interest {
+        width: 50%;
+    }
+
+    #wrapper {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    #term-and-interest {
+        
+        margin-top: 5px;
+        width:100%;
+    }
+    button {
+        min-width:auto;
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #currency-and-deposit{
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
+
+    #deposit {
+        width: auto;
+    }
+    #deposit-input {
+        width: 100%;
+  }
+
+    #result {
+        max-width: none;
+        width: 100%;
+    }
+}
+

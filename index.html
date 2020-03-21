@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="currency-and-deposit">
+
+            <div id="deposit">
+                <h2 class="title">Deposit amount</h2>
+                <div id="deposit-selection">
+                    <div id="deposit-value">5000</div>
+
+                </div>
+            </div>
+
+            <div id="currency">
+                <h2 class="title">Currency</h2>
+                <div id="currency-selection">
+
+                    <select id="currency-value">
+                        <option>RUB</option>
+                        <option>USD</option>
+                    </select>
+                </div>
+                <!-- <div id="currency-value">RUB</div> -->
+
+            </div>
+            <input id="deposit-input" type="range" min="5000" max="50000" step="1000" value="5000">
+
+        </div>
+
+        <div id="term-and-interest">
+            <div id="term">
+                <h2 class="title">Term</h2>
+                <select id="term-value">
+                    <option>30</option>
+                    <option>100</option>
+                    <option>365</option>
+                    <option>500</option>
+                    <option>1000</option>
+                </select>
+            </div>
+
+            <div id="deposit-interest">
+                <h2 class="title">Interest</h2>
+                <!-- <div id="interest-value"></div> -->
+                <select id="interest-value">
+                    <option>5</option>
+                    <option>9</option>
+                    <option>11</option>
+                    <option>13</option>
+                </select>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <button>Calculate</button>
+
+
+    <div id="result">
+        <h2>YOUR INCOME IS</h2>
+        <h1>10 000</h1>
+    </div>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

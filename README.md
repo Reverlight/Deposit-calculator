@@ -16,7 +16,7 @@ Whenever user changes range input it would automatically set this value to div a
 
 - finalDepositValue - the deposit value amount after storing. 
 
-Calculation is based on simple percentage deposit formula 
+**Calculation is based on simple percentage deposit formula** 
 
 **finalDepositValue** = p + ((p * i * t) / (k * 100))
 

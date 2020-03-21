@@ -18,9 +18,9 @@ Whenever user changes range input it would automatically set this value to div a
 
 Calculation is based on simple percentage deposit formula 
 
-finalDepositValue = p + ((p * i * t) / (k * 100))
+**finalDepositValue** = p + ((p * i * t) / (k * 100))
 
-income = finalDepositValue - P;
+**income** = finalDepositValue - P;
 
   
 ![Deposit-calculator](https://github.com/Reverlight/Deposit-calculator/blob/master/deposit-calculator-preview.png?raw=true)

@@ -6,15 +6,15 @@ Whenever user changes range input it would automatically set this value to div a
 
 # Formula
 
-I - interest per year
+- I - interest per year
 
-t – deposit storing time 
+- t – deposit storing time 
 
-K – days in calendar. I decided to hard-code 365
+- K – days in calendar. I decided to hard-code 365
 
-P – deposit contributed money value 
+- P – deposit contributed money value 
 
-finalDepositValue - the deposit value amount after storing. 
+- finalDepositValue - the deposit value amount after storing. 
 
 Calculation is based on simple percentage deposit formula 
 

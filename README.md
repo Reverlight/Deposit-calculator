@@ -2,7 +2,7 @@
 CSS Responsive deposit-calculator using Jquery, CSS, HTML 
 
 # Main logic
-Whenever user changes range input it would automatically set this value to div above and display. Also when user changes currency, the value would by updated approximetely and set it both to div and range input. After button is clicked, the input values would be used to calculate deposit according to the formula 
+Whenever user changes range input it would automatically set this value to div above and display. Also when user changes currency, the value would by updated approximetely and set it both to div and range input. After button is clicked, the input values would be used to calculate deposit according to the formula and div block with the result would be displayed. 
 
 # Formula
 

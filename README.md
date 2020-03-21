@@ -22,5 +22,5 @@ Whenever user changes range input it would automatically set this value to div a
 
 **income** = finalDepositValue - P;
 
-  
+  # Preview
 ![Deposit-calculator](https://github.com/Reverlight/Deposit-calculator/blob/master/deposit-calculator-preview.png?raw=true)

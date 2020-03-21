@@ -12,7 +12,7 @@ Whenever user changes range input it would automatically set this value to div a
 
 - I - interest per year
 
-- t – deposit storing days time
+- t – deposit storing time in days
 
 - K – days in calendar. I decided to hard-code 365
 
